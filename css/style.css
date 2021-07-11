@@ -1,0 +1,36 @@
+.hidden{
+    display:none;
+}
+
+body {
+    font-family: 'Roboto', 'Arial', 'Malgun Gothic', '맑은 고딕', sans-serif;
+    height:100vh;
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color : white;
+}
+
+#clock {
+    font-size: 168px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    margin:0px;
+}
+
+button {
+    margin-left:10px;
+}
+
+#weather {
+    position:absolute;
+    top:5px;
+}
+
+ul {
+    padding-left: 0;
+}
